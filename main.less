@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    #header-wrap{
+        text-align: center;
+        img{
+            width: 100%;
+            
+        }
+        h1, h3{
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            color: white;
+        }
+        h1{
+            top: 0;
+        }
+        h3{
+            top: 3em;
+        }
+    }
+    #carousel-wrap{
+        height: 30em;
+        width: 100%;
+        position: relative;
+        margin-top: 5em;
+        .carousel-element{
+            height: 25em;
+            position: absolute;
+            top: 0;
+            cursor: pointer;
+            .carousel-tile{
+                height: 100%;
+                display: inline-block;
+                text-align: center;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+    }
+    #image-compare-wrap{
+        height: 30em;
+        width: 100%;
+        .image-wrapper{
+            .image-compare{
+                height: 30em;
+                width: 100%;
+                position: absolute;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                transition: opacity 500ms ease;
+            }
+        }
+    }
+}
